@@ -19,6 +19,7 @@ When using this library, you need to wrap your components with specific div elem
 Example structure:
 ```jsx
 /* App.tsx */
+import { FullPageWrapper } from "fullpage-nestedscroll-react";
 
 <div className="container">
   <FullPageWrapper>
