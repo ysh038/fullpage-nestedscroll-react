@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],             // ✅ JSX와 브라우저 API 인식
+    "jsx": "react-jsx",                   // ✅ React 17+ 스타일 JSX 지원
+    "declaration": true,                  // ✅ .d.ts 파일 생성
+    "declarationDir": "dist",             // ✅ 타입 파일 저장 위치
+    "outDir": "dist",                     // ✅ 컴파일 결과 저장 위치
+    "strict": true,                       // ✅ 타입 안전하게
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["react", "react-dom"]       // ✅ JSX 관련 타입 선언 포함
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
