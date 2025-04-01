@@ -1,7 +1,11 @@
 {
   "name": "fullpage-nestedscroll-react",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "keywords": ["fullpage", "nestedscroll", "react"],
+  "description": "FullPage Library with NestedScroll for React",
+  "author": "ysh038",
+  "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
