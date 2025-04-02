@@ -10,6 +10,8 @@ npm i fullpage-nestedscroll-react
 
 ## Usage
 
+This library works only with PC(Desktop, laptop ...) devices.
+
 When using this library, you need to wrap your components with specific div elements in the following order:
 
 1. Wrap each of your components with a `section` class div

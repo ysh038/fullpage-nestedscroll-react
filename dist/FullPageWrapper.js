@@ -18,8 +18,7 @@ export function FullPageWrapper({ children, onScrollDirectionChange }) {
     const checkEnableCondition = () => {
         const userAgent = navigator.userAgent;
         const deviceType = getDeviceType(userAgent);
-        const isWideScreen = window.innerWidth >= 1024;
-        return deviceType === "desktop" && isWideScreen;
+        return deviceType === "desktop";
     };
     useEffect(() => {
         setIsEnabled(checkEnableCondition());
